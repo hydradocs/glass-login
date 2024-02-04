@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(25, 24, 24);
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.container{
+    width: 30vw;
+    height: auto; 
+    background-color: rgba(97, 97, 97, 0.931);
+    background-position: center;
+    margin-inline: 35vw;
+    margin-top: 20vh;
+    border-radius: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 16px 14px 16px rgba(51, 52, 52, 0.678);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+.input-box{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.input-box input{
+    width: 26vw;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-top: 12px;
+    color: white;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+
+
+
+i{
+    margin-top: 20px;
+    margin-left: 12px;
+    color: aliceblue;
+    width: 10rem;
+    position: relative;
+    margin-left: -12px;
+}
+
+button{
+    
+    width: 100%;
+    background-color: aqua;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+label, span{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(132, 132, 242);
+}
